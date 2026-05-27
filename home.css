@@ -1,15 +1,22 @@
 body{background-image: url("home.jpg");
 background-size: cover;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+}
     h1{color: orange;}
     h3{color: cyan}
-    h4{color: white;}
-    a{color: black;}
+    h4{color: white;
+    text-shadow: 3px 3px 10px;}
+    a{color: white;}
     .roblox-universe{text-align: center;}
     .home-nav{text-align: center;}
     a{color: black;}
     .dark-box {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 20px;
+    padding: 45px;
     border-radius: 10px;
+    display: inline-block;
+    p {
+    color: yellowgreen;
+text-shadow: 3px 3px 10px black;
+}
 }
