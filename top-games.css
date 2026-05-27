@@ -1,0 +1,35 @@
+body {
+    background-image: url("top-games.jpg");
+    text-align: center;
+}
+
+h1{color: orange;}
+h3{color: black;}
+
+
+
+h3{
+    color:white;
+    text-shadow: 3px 3px 10px white;
+}
+p {
+    color: cyan;
+    text-shadow: 2px 2px 4px black;
+}
+
+.dark-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4{
+    color: greenyellow;
+}
+
+.game-img {
+    width: 350px;
+    height: 350px;
+}
+
+a{color: black;}

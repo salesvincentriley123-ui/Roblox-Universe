@@ -1,0 +1,36 @@
+body{background-image: url(underratedgames.jpg);
+text-align: center;}
+h1{color: orange;}
+h3{color: cyan;}
+p{color: black}
+p {
+  font-size: 19px;
+}
+
+.game-img {
+    width: 350px;
+    height: 350px;
+}
+
+ p{
+    color: cyan;
+    text-shadow: 3px 12px 10px black;
+}
+
+ h3{
+    color: white;
+    text-shadow: 3px 3px 10px white;
+}
+
+
+.dark-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h4{
+    color: greenyellow;
+}
+
+a{color: black}
