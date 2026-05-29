@@ -1,23 +1,90 @@
-body{background-image: url("home.jpg");
-background-size: cover;
-    background-repeat: no-repeat;
+body {
+    background-image: url("home.jpg");
+    text-align: center;
 }
-    h1{color: orange;
-    text-shadow: 3px 3px 8px black;}
-    h3{color: cyan}
-    h4{color: white;
-    text-shadow: 3px 3px 10px;}
-    a{color: white;}
-    .roblox-universe{text-align: center;}
-    .home-nav{text-align: center;}
-    a{color: black;}
-    .dark-box {
+
+h1{color: orange;
+text-shadow: 2px 2px 10px;
+font-size: 100px;}
+
+
+
+
+p {
+    color: cyan;
+    text-shadow: 2px 2px 4px black;
+    font-size: large;
+}
+
+.dark-box {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 45px;
-    border-radius: 10px;
-    display: inline-block;
-    p {
-    color: yellowgreen;
-text-shadow: 3px 3px 10px black;
+    padding: 20px;
+    border-radius: 10px;}
+
+
+
+a{color: black;}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px; /* smaller gap */
+    margin-bottom: 20px;
 }
+
+.text h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 10px;
+}
+
+.text p {
+    font-size: 40px;
+}
+
+.text h4 {
+    font-size: 30px;
+    color:  yellowgreen;
+    text-shadow: 3px 3px 10px;
+}
+
+@media (min-width: 900px) {
+
+    .section {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+    .text {
+        flex: 1;
+    }
+
+    .image {
+        flex: 1;
+    }
+}
+
+/* MOBILE */
+@media (min-width: 900px) {
+    .section {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
 }
